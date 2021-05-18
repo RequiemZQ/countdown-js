@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lilita One', cursive;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 3rem;
+    
+}
+
+.time-until {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items:inherit;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.day,.hour,.minute,.second {
+    font-size: 3rem;
+}
+
+.wait {
+    height: 80vh;
+}
